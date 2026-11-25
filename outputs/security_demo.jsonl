@@ -1,0 +1,7 @@
+{"ts": "2026-11-25T19:34:55.221632+00:00", "level": "INFO", "event": "dec", "ok": true, "mode": "GCM", "reason": "success", "elapsed_ms": 6785.176}
+{"ts": "2026-11-25T19:35:17.159283+00:00", "level": "WARNING", "event": "dec", "ok": false, "mode": null, "reason": "output_exists", "elapsed_ms": 0.087}
+{"ts": "2026-11-25T19:36:46.334874+00:00", "level": "WARNING", "event": "dec", "ok": false, "mode": "GCM", "reason": "invalid_password", "elapsed_ms": 2403.896}
+{"ts": "2026-11-25T19:36:51.635726+00:00", "level": "WARNING", "event": "dec", "ok": false, "mode": "GCM", "reason": "invalid_password", "elapsed_ms": 2827.664}
+{"ts": "2026-11-25T19:36:56.199792+00:00", "level": "WARNING", "event": "dec", "ok": false, "mode": "GCM", "reason": "invalid_password", "elapsed_ms": 2272.684}
+{"ts": "2026-11-25T19:36:56.200030+00:00", "level": "ERROR", "event": "AUTH_ANOMALY", "failures": 3, "window_seconds": 300}
+{"ts": "2026-11-25T20:11:56.017353+00:00", "level": "WARNING", "event": "dec", "ok": false, "mode": "GCM", "reason": "authentication_failed", "elapsed_ms": 10247.589}

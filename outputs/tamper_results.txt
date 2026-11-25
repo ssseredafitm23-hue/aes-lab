@@ -1,0 +1,19 @@
+=== AES TAMPER DETECTION DEMO ===
+
+=== CBC-HMAC ===
+[PASS] Modified ciphertext: Authentication failed
+       No plaintext output created
+[PASS] Modified tag: Authentication failed
+       No plaintext output created
+[PASS] Modified header: Authentication failed
+       No plaintext output created
+
+=== GCM ===
+[PASS] Modified ciphertext: Authentication failed
+       No plaintext output created
+[PASS] Modified tag: Authentication failed
+       No plaintext output created
+[PASS] Modified header: Authentication failed
+       No plaintext output created
+
+Passed tamper checks: 6/6

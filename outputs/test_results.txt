@@ -1,0 +1,17 @@
+test_ciphertext_tampering (test_roundtrip.TestAES.test_ciphertext_tampering) ... ok
+test_edge_sizes (test_roundtrip.TestAES.test_edge_sizes) ... ok
+test_header_tampering (test_roundtrip.TestAES.test_header_tampering) ... ok
+test_invalid_header (test_roundtrip.TestAES.test_invalid_header) ... ok
+test_invalid_key_length (test_roundtrip.TestAES.test_invalid_key_length) ... ok
+test_key_reuse (test_roundtrip.TestAES.test_key_reuse) ... ok
+test_keystore_security (test_roundtrip.TestAES.test_keystore_security) ... ok
+test_output_overwrite_protection (test_roundtrip.TestAES.test_output_overwrite_protection) ... ok
+test_roundtrip (test_roundtrip.TestAES.test_roundtrip) ... ok
+test_tag_tampering (test_roundtrip.TestAES.test_tag_tampering) ... ok
+test_truncated_container (test_roundtrip.TestAES.test_truncated_container) ... ok
+test_wrong_password (test_roundtrip.TestAES.test_wrong_password) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 13.379s
+
+OK

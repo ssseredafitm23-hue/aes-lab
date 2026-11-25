@@ -1,0 +1,49 @@
+=== AES PERFORMANCE BENCHMARK ===
+Modes: CBC-HMAC, GCM
+Sizes: (1, 10, 100) MiB
+Repeats: 5
+Logical CPUs: 2
+RAM MiB: 7943
+[PASS] 1 MiB | CBC-HMAC | Trial 1/5
+[PASS] 1 MiB | GCM | Trial 1/5
+[PASS] 1 MiB | GCM | Trial 2/5
+[PASS] 1 MiB | CBC-HMAC | Trial 2/5
+[PASS] 1 MiB | CBC-HMAC | Trial 3/5
+[PASS] 1 MiB | GCM | Trial 3/5
+[PASS] 1 MiB | GCM | Trial 4/5
+[PASS] 1 MiB | CBC-HMAC | Trial 4/5
+[PASS] 1 MiB | CBC-HMAC | Trial 5/5
+[PASS] 1 MiB | GCM | Trial 5/5
+[PASS] 10 MiB | CBC-HMAC | Trial 1/5
+[PASS] 10 MiB | GCM | Trial 1/5
+[PASS] 10 MiB | GCM | Trial 2/5
+[PASS] 10 MiB | CBC-HMAC | Trial 2/5
+[PASS] 10 MiB | CBC-HMAC | Trial 3/5
+[PASS] 10 MiB | GCM | Trial 3/5
+[PASS] 10 MiB | GCM | Trial 4/5
+[PASS] 10 MiB | CBC-HMAC | Trial 4/5
+[PASS] 10 MiB | CBC-HMAC | Trial 5/5
+[PASS] 10 MiB | GCM | Trial 5/5
+[PASS] 100 MiB | CBC-HMAC | Trial 1/5
+[PASS] 100 MiB | GCM | Trial 1/5
+[PASS] 100 MiB | GCM | Trial 2/5
+[PASS] 100 MiB | CBC-HMAC | Trial 2/5
+[PASS] 100 MiB | CBC-HMAC | Trial 3/5
+[PASS] 100 MiB | GCM | Trial 3/5
+[PASS] 100 MiB | GCM | Trial 4/5
+[PASS] 100 MiB | CBC-HMAC | Trial 4/5
+[PASS] 100 MiB | CBC-HMAC | Trial 5/5
+[PASS] 100 MiB | GCM | Trial 5/5
+
+=== BENCHMARK SUMMARY (MEDIAN) ===
+  1 MiB CBC-HMAC | ENC   125.00 MiB/s | DEC   136.30 MiB/s | RSS 38.1/37.9 MiB | PASS
+  1 MiB GCM      | ENC   295.27 MiB/s | DEC   383.70 MiB/s | RSS 36.3/36.5 MiB | PASS
+ 10 MiB CBC-HMAC | ENC   187.12 MiB/s | DEC   219.29 MiB/s | RSS 83.2/82.8 MiB | PASS
+ 10 MiB GCM      | ENC   713.99 MiB/s | DEC   854.40 MiB/s | RSS 62.8/52.9 MiB | PASS
+100 MiB CBC-HMAC | ENC   211.40 MiB/s | DEC   249.38 MiB/s | RSS 533.1/532.8 MiB | PASS
+100 MiB GCM      | ENC   846.95 MiB/s | DEC  1029.54 MiB/s | RSS 332.9/232.9 MiB | PASS
+
+Completed cycles: 30
+All restored files verified: True
+Results: outputs/bench.csv
+Summary: outputs/bench.md
